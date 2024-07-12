@@ -1,0 +1,64 @@
+#container{
+    background-color: black;
+
+}
+#top-header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    background-color: aqua;
+}
+#logo{
+    height: 100%;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-color: blue;
+}
+#banner{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+#main-content{
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:salmon;
+}
+.card-first-row{
+    height: 200px;
+    width: 800px;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 40px;
+    
+}
+.card-second-row{
+    height: 200px;
+    width: 800px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+.card-first-row .card{
+    height: 100%;
+    width: 275px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+.card-second-row .cards{
+    height: 100%;
+    width: 275px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
